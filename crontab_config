@@ -1,0 +1,6 @@
+5 * * * * rclone sync /root/storage/Media/Mango/Manga/ /root/manga/
+10 * * * * rclone sync /root/storage/Media/Mango/H-Manga/ /root/h/
+15 * * * * rclone sync /root/storage/Media/Mango/Manwah/ /root/manwah/
+20 * * * * rclone sync /root/storage/Media/Mango/comic/  /root/comics/
+25 * * * * rclone sync /root/storage/Media/Mango/H-Books/  /root/h-manga/
+30 * * * * rclone sync /root/storage/Media/Mango/Manga_offiziell/  /root/manga_offiziell/
