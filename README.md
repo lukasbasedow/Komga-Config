@@ -1,0 +1,1 @@
+### Automatic Komga Update Config
