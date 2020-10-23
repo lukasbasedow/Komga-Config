@@ -1,0 +1,14 @@
+[Unit]
+Description=Sevice service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=java -jar -Xmx4g /root/komga-0.63.3.jar
+
+[Install]
+WantedBy=multi-user.target
